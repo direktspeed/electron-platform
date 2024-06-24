@@ -1,0 +1,5 @@
+{"type":"module",{"dependencies":{ 
+  "rollup": "npm:rollup@latest",
+  "node": "npm:node@latest", 
+  "electron": "npm:electron@latest" 
+}}
