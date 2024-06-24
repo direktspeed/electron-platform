@@ -1,7 +1,9 @@
-{"type":"module",{"dependencies":{ 
+{ "version":"0.0.0-pre.0","name":"@direktspeed/electron-platform",
+  "description":"Runs Electron Apps from github and other sources.",
+  "type":"module",{"dependencies":{ 
   "rollup": "npm:rollup@latest",
   "node": "npm:node@latest", 
   "electron": "npm:electron@latest" 
 },"bin":{
-    "electron-platform": "electron-platform.js"
+  "electron-platform": "electron-platform.js"
 }}
