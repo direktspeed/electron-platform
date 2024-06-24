@@ -13,6 +13,11 @@ At present i have no time to maintain all the variations that would be needed fo
 Install NodeJS First Most best via the Platform Installer if your running on windows please install all additions. I have no code in place to do all that for you.
 Then use electron-platform as follows npx @direktspeed/electron-platform add @latest to upgrade do npm i -g @direktspeed/electron-platfrom@latest to speed up npx
 
+on linux use this platform installer if you got none
+```sh
+(MIRROR=https://nodejs.org/dist/latest; VERSION=; DIR=/usr/local; SYSTEM=linux-x64; curl -s -L ${MIRROR}${VERSION}/$(curl -s -L ${MIRROR}${VERSION} | grep 'tar.gz' | grep ${SYSTEM} | cut -d\" -f2) | tar -xvz --strip-components 1 -C ${DIR})
+```
+
 Electron platfrom is designed to run even multiple Electron versions if needed and diffrent node versions in isolated context it does so via npx
 
 ```js
