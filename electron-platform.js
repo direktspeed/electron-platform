@@ -11,3 +11,5 @@ exec('ls',{ env: Object.assign({},process.env,{
 })}).then(handleLsOutput);
 
 // TODO: Async logging via cluster fork of our self.
+
+// child_process.spawn(electron,{opts})
