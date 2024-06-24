@@ -2,4 +2,6 @@
   "rollup": "npm:rollup@latest",
   "node": "npm:node@latest", 
   "electron": "npm:electron@latest" 
+},"bin":{
+    "electron-platform": "electron-platform.js"
 }}
